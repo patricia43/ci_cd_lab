@@ -22,7 +22,7 @@ spec:
     spec:
       containers:
         - name: webserver
-          image: ghcr.io/patricia43/ci_cd_lab:latest
+          image: ghcr.io/patricia43/go-simple-webserver@sha256:eda8c1dde162a20b6c176ea2fb15f851c670ae6f4748c0cd093e188e83ac1cde
           ports:
             - containerPort: 8080
           imagePullPolicy: Always
